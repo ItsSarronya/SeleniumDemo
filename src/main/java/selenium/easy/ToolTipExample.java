@@ -1,6 +1,6 @@
 package selenium.easy;
 
-/Testing GIT Modification
+//Testing GIT Modification
 
 //incomplete
 import org.openqa.selenium.By;
