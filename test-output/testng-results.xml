@@ -1,11 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="1" failed="1" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13" started-at="2018-11-18T05:48:28Z" finished-at="2018-11-18T05:48:28Z">
+  <suite name="Default suite" duration-ms="74" started-at="2019-07-12T10:51:11Z" finished-at="2019-07-12T10:51:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13" started-at="2018-11-18T05:48:28Z" finished-at="2018-11-18T05:48:28Z">
+    <test name="Default test" duration-ms="74" started-at="2019-07-12T10:51:11Z" finished-at="2019-07-12T10:51:12Z">
+      <class name="saro.automation.learner.reporting.Reporting_TestNGListeners">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:saro.automation.learner.reporting.Reporting_TestNGListeners@4c70fda8]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2019-07-12T16:21:12Z" finished-at="2019-07-12T16:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testSimulation00()[pri:0, instance:saro.automation.learner.reporting.Reporting_TestNGListeners@4c70fda8]" name="testSimulation00" duration-ms="16" started-at="2019-07-12T16:21:12Z" finished-at="2019-07-12T16:21:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at saro.automation.learner.reporting.Reporting_TestNGListeners.testSimulation00(Reporting_TestNGListeners.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimulation00 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:saro.automation.learner.reporting.Reporting_TestNGListeners@4c70fda8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-12T16:21:12Z" finished-at="2019-07-12T16:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testSimulation0()[pri:0, instance:saro.automation.learner.reporting.Reporting_TestNGListeners@4c70fda8]" name="testSimulation0" duration-ms="2" started-at="2019-07-12T16:21:12Z" finished-at="2019-07-12T16:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimulation0 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:saro.automation.learner.reporting.Reporting_TestNGListeners@4c70fda8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-12T16:21:12Z" finished-at="2019-07-12T16:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:saro.automation.learner.reporting.Reporting_TestNGListeners@4c70fda8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-12T16:21:12Z" finished-at="2019-07-12T16:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="testSimulation000()[pri:0, instance:saro.automation.learner.reporting.Reporting_TestNGListeners@4c70fda8]" name="testSimulation000" duration-ms="0" started-at="2019-07-12T16:21:12Z" depends-on-methods="saro.automation.learner.reporting.Reporting_TestNGListeners.testSimulation00" finished-at="2019-07-12T16:21:12Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Reporting_TestNGListeners.testSimulation000()[pri:0, instance:saro.automation.learner.reporting.Reporting_TestNGListeners@4c70fda8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Reporting_TestNGListeners.testSimulation000()[pri:0, instance:saro.automation.learner.reporting.Reporting_TestNGListeners@4c70fda8] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimulation000 -->
+      </class> <!-- saro.automation.learner.reporting.Reporting_TestNGListeners -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
